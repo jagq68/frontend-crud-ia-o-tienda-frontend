@@ -1,0 +1,62 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333;
+}
+
+.header {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.lista-container h2 {
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 8px;
+  color: #007bff;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.card-pessoa {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.card-pessoa:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-pessoa h3 {
+  margin: 0;
+  color: #222;
+  font-size: 1.15rem;
+}
+
+.username {
+  color: #007bff;
+  font-weight: bold;
+  font-size: 0.85rem;
+  margin: 2px 0 10px 0;
+}
+
+.card-pessoa p {
+  margin: 6px 0;
+  font-size: 0.9rem;
+  color: #555;
+}
