@@ -4,7 +4,7 @@ function VistaCompras() {
   const [compras, setCompras] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3000/api/productos')
+    fetch('http://localhost:5000/api/productos')
       .then(res => res.json())
       .then(data => {
         // Filtramos solo aquellos productos que sí tienen un cliente asociado (cliente_id no nulo)

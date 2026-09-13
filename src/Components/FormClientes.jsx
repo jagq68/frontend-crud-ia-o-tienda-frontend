@@ -8,7 +8,7 @@ function FormClientes() {
   });
   const [idEditando, setIdEditando] = useState(null);
 
-  const API_URL = 'http://localhost:3000/api/clientes';
+  const API_URL = 'http://localhost:5000/api/clientes';
 
   const cargarClientes = async () => {
     try {

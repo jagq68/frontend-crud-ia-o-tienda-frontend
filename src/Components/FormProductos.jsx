@@ -8,8 +8,8 @@ function FormProductos() {
   });
   const [idEditando, setIdEditando] = useState(null);
 
-  const API_PROD = 'http://localhost:3000/api/productos';
-  const API_CLI = 'http://localhost:3000/api/clientes';
+  const API_PROD = 'http://localhost:5000/api/productos';
+  const API_CLI = 'http://localhost:5000/api/clientes';
 
   const cargarDatos = async () => {
     try {
